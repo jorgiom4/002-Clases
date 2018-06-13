@@ -3,7 +3,9 @@ package com.instancia2.cuenta;
 
 import java.util.Scanner;
 
+
 /**
+ * pedrodelafuente@gmail.com
  * Ejercicio de clases Cuenta
  */
 public class Cuenta {

@@ -1,8 +1,11 @@
 package com.instancia2;
 
+import com.instancia2.calculadora.Calculadora;
 import com.instancia2.coches.Coche;
 import com.instancia2.contador.Contador;
 import com.instancia2.cuenta.Cuenta;
+import com.instancia2.ejercicio1.Circulo;
+import com.instancia2.ejercicio1.Cliente;
 
 import java.util.Scanner;
 
@@ -32,6 +35,7 @@ public class Main {
         //Instanciamos la clase Cuenta
         Cuenta miCuenta = new Cuenta();
 
+        /*
         miCuenta.setCantidadEnCuenta();
         miCuenta.setIngreso();
         miCuenta.setReintegro();
@@ -42,6 +46,22 @@ public class Main {
         miContador.setContador(100);
         miContador.incrementarContador(50);
         miContador.decrementarContador(20);
+        */
+
+        //Instanciamos la clase Calculadora
+        //Calculadora myCalculadora = new Calculadora();
+
+        //System.out.println("La suma de " + myCalculadora.getValor1() + " mas " + myCalculadora.getValor2() + " es: " + myCalculadora.Sumar());
+
+        //Instanciamos el ejercicio1
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Introduzca el radio: ");
+        int radio = sc.nextInt(); //leer un entero
+
+        Cliente cliente = new Cliente(radio);
+
+
 
 
 
