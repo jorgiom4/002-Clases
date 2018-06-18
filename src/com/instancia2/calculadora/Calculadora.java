@@ -2,11 +2,17 @@ package com.instancia2.calculadora;
 
 import java.util.Scanner;
 
+/**
+ * Clase con el ejerccio 1 con sobrecarga de constructores
+ */
 public class Calculadora {
 
     private  int valor1;
     private  int valor2;
 
+    /**
+     * Constructor sin parametros
+     */
     public Calculadora(){
 
         Scanner sc = new Scanner(System.in);
@@ -18,7 +24,12 @@ public class Calculadora {
         valor2 = sc.nextInt(); //leer un entero
 
     }
-    //Constructor
+
+    /**
+     * Constructor con sobrecarga
+     * @param a
+     * @param b
+     */
     public Calculadora(int a, int b ){
         valor1 = a;
         valor2 = b;
