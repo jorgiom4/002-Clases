@@ -24,7 +24,7 @@ public class Circulo {
     public Circulo(double r){
         this.radio = r;
         this.area = 2 * Math.PI * r * r;
-        this.perimetro = 2 * 3.1416 * r;
+        this.perimetro = 2 * Math.PI * r;
     }
 
     public double getRadio() {
